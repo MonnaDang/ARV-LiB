@@ -42,9 +42,9 @@
 
 // Prescaler
 /*
-	               F_system
-	F	=    ------------------      = 1kHz
-			 2*Presaler*(1+OCR1A)
+	                 F_system
+	F	=    ------------------    
+		        2*Presaler
 */
 //ADCSRA
 #define ADC_CLK_DIV_2	    0x01
