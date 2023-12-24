@@ -19,9 +19,9 @@
 
 // ADMUX
 // Vref
-#define ADC_AREF			0x00
-#define ADC_AVCC			0x40
-#define ADC_INTERNAL		0xC0	
+#define ADC_AREF	    0x00
+#define ADC_AVCC	    0x40
+#define ADC_INTERNAL	    0xC0	
 
 // Adjust result
 #define ADC_LEFT            0x20
@@ -65,7 +65,7 @@
 
 // Auto trigger mode 
 // Has effect when ADATE in ADCSRA is set to 1
-#define FREE_RUNNING	    0x00
+#define FREE_RUNNING	    	    0x00
 #define ANA_COMP		    0x01
 #define EXT_INT_0		    0x02
 #define T0_COMP_A		    0x03
